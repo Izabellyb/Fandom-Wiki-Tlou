@@ -1,0 +1,43 @@
+body {
+  background-image: url(tlouedit.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: antiquewhite;
+  background-attachment: fixed;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+details {
+  text-align: left;
+  margin-bottom: 20px;
+  border: 1px solid antiquewhite;
+  border-radius: 5px;
+  padding: 10px;
+  width: 700px;
+}
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+a {
+  color: antiquewhite;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: black;
+}
+a:hover {
+  color: rgb(255, 81, 0);
+}
